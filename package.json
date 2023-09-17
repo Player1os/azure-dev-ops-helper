@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "esbuild src/main.ts --bundle --outdir=public --servedir=public --sourcemap --format=esm",
+    "build": "esbuild src/main.ts --bundle --outdir=public --minify --format=esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2"
+  },
+  "dependencies": {
+    "lit": "^2.8.0",
+    "redux": "^4.2.1"
+  }
+}
