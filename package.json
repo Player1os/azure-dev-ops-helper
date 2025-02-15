@@ -4,7 +4,7 @@
     "build": "esbuild src/main.ts --bundle --outdir=public --minify --format=esm"
   },
   "devDependencies": {
-    "esbuild": "^0.19.2"
+    "esbuild": "^0.25.0"
   },
   "dependencies": {
     "lit": "^2.8.0",
